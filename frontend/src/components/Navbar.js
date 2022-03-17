@@ -1,16 +1,21 @@
 import React from 'react';
+import '../styles/Navbar.css';
 
 function Navbar() {
   return (
     <>
+      <div className='wrapper'>
         <nav>
-            <li>Logo here</li>
+          <ul class="container">
             <li>Home</li>
             <li>About</li>
-            <button>Connect Wallet</button>
+            <li><button>Connect Wallet</button></li>
+          </ul>
         </nav>
+
+      </div>
     </>
   )
 }
 
-export {Navbar};
+export { Navbar };
